@@ -1,0 +1,9 @@
+fastapi
+gunicorn
+uvicorn-worker
+uvicorn
+motor
+pydantic
+pymongo
+annotated-types
+python-dotenv

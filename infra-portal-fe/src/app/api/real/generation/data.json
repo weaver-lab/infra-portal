@@ -1,0 +1,983 @@
+[
+  {
+    "item_id": "296b83a1-6c4d-4691-b160-ccd1a775f4c2",
+    "item_name": "MSAN 381",
+    "item_type": "Antenna",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 46,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        40.455023940980475,
+        -0.9541696956803687
+      ]
+    },
+    "city": "Nairobi",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "leased",
+    "item_provider_id": "4410aaeb-4cbe-49de-9ac9-2bbea0457319",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-34",
+    "colocation": "Colocation-46",
+    "power_consumption_kwh": 36.82,
+    "power_capacity_kwh": 216.17,
+    "space_required": 1.69,
+    "available_space": 6.78,
+    "availability": "available",
+    "transmission_equipment": "DWDM",
+    "band": "L-band",
+    "teleport": "Teleport C",
+    "antenna": "Horn",
+    "accessories": "Power cables",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Emergency Power Supply": "Network Operations Center",
+      "Data Transmission Unit": "Radio Access Node",
+      "Network Demarcation Point": "Optical Network Terminal",
+      "Radio Access Node": "Bts Controller Module",
+      "Distributed Antenna System": "Bts Controller Module"
+    }
+  },
+  {
+    "item_id": "7c19621f-3616-40a8-ae4b-b40f7166fdc6",
+    "item_name": "Trenches 110",
+    "item_type": "Satellite",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 98,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.304396104544175,
+        3.813192867004858
+      ]
+    },
+    "city": "Kisumu",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "owned",
+    "item_provider_id": "e4af1278-e86d-4ad9-b487-50cdf243bef0",
+    "item_provider": "FibreCo",
+    "deployment_type": "surface",
+    "cross_connect": "Cross-connect-86",
+    "colocation": "Colocation-6",
+    "power_consumption_kwh": 16.55,
+    "power_capacity_kwh": 73.49,
+    "space_required": 7.11,
+    "available_space": 13.79,
+    "availability": "unavailable",
+    "transmission_equipment": "Router",
+    "band": "Ka-band",
+    "teleport": "Teleport B",
+    "antenna": "Parabolic",
+    "accessories": "Power cables",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Satellite Uplink Station": "Tower Mount Amplifier",
+      "Microwave Relay Tower": "Distributed Antenna System",
+      "Cellular Base Station": "Mobile Switching Center",
+      "Tower Mount Amplifier": "Microwave Relay Tower"
+    }
+  },
+  {
+    "item_id": "cbd67957-4aab-44b3-ac12-2142beceedf2",
+    "item_name": "Electricity substation 229",
+    "item_type": "Data Center",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 82,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.78205119824494,
+        -1.9142930006313952
+      ]
+    },
+    "city": "Kisumu",
+    "country": "KEN",
+    "operational_status": "active",
+    "ownership": "leased",
+    "item_provider_id": "a8e7f669-a20f-4a30-bd3b-dd384634fa6f",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-34",
+    "colocation": "Colocation-40",
+    "power_consumption_kwh": 17.88,
+    "power_capacity_kwh": 266.69,
+    "space_required": 4.55,
+    "available_space": 14.84,
+    "availability": "unavailable",
+    "transmission_equipment": "MSAN",
+    "band": "L-band",
+    "teleport": "Teleport C",
+    "antenna": "Panel",
+    "accessories": "Connectors",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Distributed Antenna System": "Optical Network Terminal",
+      "Tower Mount Amplifier": "Radio Access Node",
+      "Network Demarcation Point": "Data Transmission Unit",
+      "Optical Network Terminal": "Data Transmission Unit",
+      "Data Transmission Unit": "Cellular Base Station"
+    }
+  },
+  {
+    "item_id": "7d36cfb3-1382-4b81-a3be-fee93bb7ebb3",
+    "item_name": "Ducting 697",
+    "item_type": "Radio Access Node",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 74,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.617145627374285,
+        1.3228961050972128
+      ]
+    },
+    "city": "Thika",
+    "country": "KEN",
+    "operational_status": "inactive",
+    "ownership": "leased",
+    "item_provider_id": "0a8bd235-a2e9-439c-9b29-5ea636cb6adc",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-97",
+    "colocation": "Colocation-34",
+    "power_consumption_kwh": 15.07,
+    "power_capacity_kwh": 270.65,
+    "space_required": 9.98,
+    "available_space": 6.18,
+    "availability": "available",
+    "transmission_equipment": "Optical Amplifier",
+    "band": "L-band",
+    "teleport": "Teleport C",
+    "antenna": "Parabolic",
+    "accessories": "Connectors",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Satellite Uplink Station": "Distributed Antenna System",
+      "Bts Controller Module": "Network Operations Center",
+      "Telecom Cabinet": "Core Network Gateway"
+    }
+  },
+  {
+    "item_id": "2361dee2-dd0e-477a-8c63-7a8f27ad4bc5",
+    "item_name": "POP 968",
+    "item_type": "IXP",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 27,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.45380482758556,
+        -4.8943987930080946
+      ]
+    },
+    "city": "Kitale",
+    "country": "KEN",
+    "operational_status": "decommissioned",
+    "ownership": "owned",
+    "item_provider_id": "7e45db00-3aaf-4b07-bbcb-61fbb1f2c9b8",
+    "item_provider": "FibreCo",
+    "deployment_type": "underground",
+    "cross_connect": "Cross-connect-7",
+    "colocation": "Colocation-6",
+    "power_consumption_kwh": 86.07,
+    "power_capacity_kwh": 474.81,
+    "space_required": 8.38,
+    "available_space": 14.21,
+    "availability": "available",
+    "transmission_equipment": "Router",
+    "band": "Ka-band",
+    "teleport": "Teleport B",
+    "antenna": "Panel",
+    "accessories": "Weatherproof covers",
+    "visibility": false,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Data Transmission Unit": "Satellite Uplink Station",
+      "Fiber Distribution Hub": "5g Small Cell",
+      "Cellular Base Station": "Fiber Splice Enclosure",
+      "Fiber Splice Enclosure": "5g Small Cell",
+      "Signal Booster": "Data Transmission Unit",
+      "Network Demarcation Point": "Radio Access Node",
+      "Satellite Uplink Station": "Fiber Distribution Hub",
+      "5g Small Cell": "Telecom Cabinet"
+    }
+  },
+  {
+    "item_id": "b14ed98f-f1d3-41a7-a819-7261e3abfc4c",
+    "item_name": "Radio Frequency 772",
+    "item_type": "Fiber Switch",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 99,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.78283573717901,
+        1.6951305686262135
+      ]
+    },
+    "city": "Mombasa",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "leased",
+    "item_provider_id": "3699979d-c49f-4487-be2a-1a021e1bbe35",
+    "item_provider": "FibreCo",
+    "deployment_type": "underground",
+    "cross_connect": "Cross-connect-4",
+    "colocation": "Colocation-44",
+    "power_consumption_kwh": 32.57,
+    "power_capacity_kwh": 394.67,
+    "space_required": 5.11,
+    "available_space": 8.47,
+    "availability": "available",
+    "transmission_equipment": "Optical Amplifier",
+    "band": "Ka-band",
+    "teleport": "Teleport C",
+    "antenna": "Parabolic",
+    "accessories": "Power cables",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Fiber Distribution Hub": "Telecom Cabinet",
+      "Bts Controller Module": "Core Network Gateway",
+      "5g Small Cell": "Core Network Gateway",
+      "Satellite Uplink Station": "Optical Network Terminal"
+    }
+  },
+  {
+    "item_id": "9b44e052-471f-4d6c-adcf-8ab896771ec3",
+    "item_name": "Radio Access Node 678",
+    "item_type": "Anchor point building",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 8,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.859469976013436,
+        -0.46317363594088157
+      ]
+    },
+    "city": "Malindi",
+    "country": "KEN",
+    "operational_status": "active",
+    "ownership": "shared",
+    "item_provider_id": "d2c52918-1444-4ce9-9238-9fc93cd78f41",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-25",
+    "colocation": "Colocation-19",
+    "power_consumption_kwh": 56.32,
+    "power_capacity_kwh": 217.16,
+    "space_required": 3.38,
+    "available_space": 10.75,
+    "availability": "available",
+    "transmission_equipment": "MSAN",
+    "band": "Ku-band",
+    "teleport": "Teleport B",
+    "antenna": "Panel",
+    "accessories": "Connectors",
+    "visibility": false,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Mobile Switching Center": "Tower Mount Amplifier",
+      "Signal Booster": "Network Operations Center",
+      "Data Transmission Unit": "Distributed Antenna System",
+      "Network Demarcation Point": "Signal Booster",
+      "Network Operations Center": "Fiber Distribution Hub"
+    }
+  },
+  {
+    "item_id": "cb709b80-1e66-4991-8e1d-d6cd5d8232c1",
+    "item_name": "GPON Fiber Access Terminal 562",
+    "item_type": "GPON Fiber Access Terminal",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 25,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.81642199616094,
+        -4.104354799958545
+      ]
+    },
+    "city": "Eldoret",
+    "country": "KEN",
+    "operational_status": "decommissioned",
+    "ownership": "shared",
+    "item_provider_id": "a1aeae75-978d-4094-97ba-524f14f39524",
+    "item_provider": "FibreCo",
+    "deployment_type": "underground",
+    "cross_connect": "Cross-connect-80",
+    "colocation": "Colocation-38",
+    "power_consumption_kwh": 75.39,
+    "power_capacity_kwh": 401.37,
+    "space_required": 0.59,
+    "available_space": 5.74,
+    "availability": "available",
+    "transmission_equipment": "Optical Amplifier",
+    "band": "L-band",
+    "teleport": "Teleport C",
+    "antenna": "Horn",
+    "accessories": "Mounting brackets",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.503Z",
+    "userDefinedData": {
+      "Satellite Uplink Station": "Emergency Power Supply",
+      "5g Small Cell": "Antenna Array",
+      "Bts Controller Module": "Network Demarcation Point",
+      "Optical Network Terminal": "Network Operations Center"
+    }
+  },
+  {
+    "item_id": "ab291a6f-76ee-4e00-b1b0-91ba99051dcd",
+    "item_name": "GPON Fiber Access Terminal 703",
+    "item_type": "Fibre route",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 7,
+    "location": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          38.225566555766086,
+          3.4271257503002275
+        ],
+        [
+          37.729694325078945,
+          1.219132872560575
+        ],
+        [
+          37.68419337929578,
+          2.657940557067004
+        ],
+        [
+          39.57574274021605,
+          2.1031881116620887
+        ],
+        [
+          38.52635509771282,
+          -3.6281059672707916
+        ],
+        [
+          41.80527726889058,
+          -0.4663351157685831
+        ],
+        [
+          37.58801043993584,
+          2.9891327147318307
+        ],
+        [
+          34.45814090443308,
+          3.8257710189344163
+        ],
+        [
+          36.71760532461884,
+          2.1873179582555924
+        ],
+        [
+          41.864674554295476,
+          -0.9578350911758138
+        ]
+      ]
+    },
+    "city": "Mombasa",
+    "country": "KEN",
+    "operational_status": "active",
+    "ownership": "shared",
+    "item_provider_id": "ba3d0691-e177-4b5e-ba70-df4ad84f3cdd",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-41",
+    "colocation": "Colocation-29",
+    "power_consumption_kwh": 88.16,
+    "power_capacity_kwh": 369.03,
+    "space_required": 0.73,
+    "available_space": 1.34,
+    "availability": "available",
+    "transmission_equipment": "Router",
+    "band": "Ka-band",
+    "teleport": "Teleport C",
+    "antenna": "Parabolic",
+    "accessories": "Power cables",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Cellular Base Station": "Emergency Power Supply",
+      "Data Transmission Unit": "Optical Network Terminal",
+      "Mobile Switching Center": "Telecom Cabinet",
+      "Network Operations Center": "Mobile Switching Center"
+    }
+  },
+  {
+    "item_id": "6f5aef5c-8d8f-473c-8b9e-e3e77bf952f5",
+    "item_name": "Pylon 628",
+    "item_type": "Police station",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 31,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        34.638002537930326,
+        -1.4753736424093122
+      ]
+    },
+    "city": "Kisumu",
+    "country": "KEN",
+    "operational_status": "inactive",
+    "ownership": "owned",
+    "item_provider_id": "d436b591-3f15-4f0f-9714-35bfcc669be9",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-21",
+    "colocation": "Colocation-31",
+    "power_consumption_kwh": 43.73,
+    "power_capacity_kwh": 414.71,
+    "space_required": 9.15,
+    "available_space": 4.92,
+    "availability": "unavailable",
+    "transmission_equipment": "Router",
+    "band": "Ku-band",
+    "teleport": "Teleport A",
+    "antenna": "Parabolic",
+    "accessories": "Mounting brackets",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Antenna Array": "Emergency Power Supply",
+      "Optical Network Terminal": "Emergency Power Supply",
+      "Network Demarcation Point": "Fiber Distribution Hub",
+      "Emergency Power Supply": "Telecom Cabinet"
+    }
+  },
+  {
+    "item_id": "09acf64a-dc9e-4111-aaf3-79ed70ad6ca5",
+    "item_name": "DWDM transmission equipment 432",
+    "item_type": "DWDM transmission equipment",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 83,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.10238728010374,
+        0.45134688846891713
+      ]
+    },
+    "city": "Thika",
+    "country": "KEN",
+    "operational_status": "active",
+    "ownership": "shared",
+    "item_provider_id": "2b16c64c-1969-486d-a1b0-aba4e01ba6b5",
+    "item_provider": "FibreCo",
+    "deployment_type": "underground",
+    "cross_connect": "Cross-connect-98",
+    "colocation": "Colocation-33",
+    "power_consumption_kwh": 35.68,
+    "power_capacity_kwh": 363.42,
+    "space_required": 7.48,
+    "available_space": 19.53,
+    "availability": "available",
+    "transmission_equipment": "DWDM",
+    "band": "Ku-band",
+    "teleport": "Teleport C",
+    "antenna": "Yagi",
+    "accessories": "Weatherproof covers",
+    "visibility": false,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Data Transmission Unit": "Network Demarcation Point",
+      "Tower Mount Amplifier": "Radio Access Node",
+      "Fiber Distribution Hub": "Emergency Power Supply",
+      "Core Network Gateway": "Distributed Antenna System",
+      "Telecom Cabinet": "Network Operations Center",
+      "Bts Controller Module": "Network Demarcation Point"
+    }
+  },
+  {
+    "item_id": "5883e572-514a-4573-941f-5dbbbf4bf232",
+    "item_name": "Police station 346",
+    "item_type": "Data Center",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 63,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        36.2095372802374,
+        -2.6763987674023926
+      ]
+    },
+    "city": "Kisumu",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "leased",
+    "item_provider_id": "62277dbe-7b5c-43f8-8922-93b60eb1924d",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-24",
+    "colocation": "Colocation-18",
+    "power_consumption_kwh": 4.43,
+    "power_capacity_kwh": 356.15,
+    "space_required": 3.55,
+    "available_space": 16.91,
+    "availability": "reserved",
+    "transmission_equipment": "MSAN",
+    "band": "Ka-band",
+    "teleport": "Teleport A",
+    "antenna": "Yagi",
+    "accessories": "Connectors",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Network Demarcation Point": "Emergency Power Supply",
+      "Fiber Distribution Hub": "Network Demarcation Point",
+      "Core Network Gateway": "Network Demarcation Point",
+      "Emergency Power Supply": "Telecom Cabinet"
+    }
+  },
+  {
+    "item_id": "b1a215ca-341a-44bd-8373-718739d22483",
+    "item_name": "Tower/LTE 498",
+    "item_type": "Network Route",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 27,
+    "location": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          34.36123551483886,
+          -1.879287414721078
+        ],
+        [
+          37.18199773647573,
+          -3.4180361105887003
+        ],
+        [
+          38.50136694723698,
+          1.703020245839097
+        ],
+        [
+          39.52011692580616,
+          0.23997155537434534
+        ],
+        [
+          35.4416259861691,
+          0.9655161754358899
+        ],
+        [
+          40.2948540734471,
+          -3.758482052843888
+        ],
+        [
+          35.39147607785579,
+          0.6817916133365749
+        ],
+        [
+          36.464797301912235,
+          1.855217250954306
+        ],
+        [
+          37.10568618676988,
+          3.2983709977448576
+        ],
+        [
+          38.58451664225593,
+          -3.764504418030772
+        ]
+      ]
+    },
+    "city": "Kisumu",
+    "country": "KEN",
+    "operational_status": "inactive",
+    "ownership": "shared",
+    "item_provider_id": "62a857e3-2eae-432e-9d68-cd56ffdc5877",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-24",
+    "colocation": "Colocation-45",
+    "power_consumption_kwh": 53.33,
+    "power_capacity_kwh": 475.4,
+    "space_required": 3.47,
+    "available_space": 4.24,
+    "availability": "unavailable",
+    "transmission_equipment": "Optical Amplifier",
+    "band": "Ka-band",
+    "teleport": "Teleport A",
+    "antenna": "Horn",
+    "accessories": "Weatherproof covers",
+    "visibility": false,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Fiber Splice Enclosure": "Network Demarcation Point",
+      "Telecom Cabinet": "Satellite Uplink Station",
+      "Distributed Antenna System": "Fiber Splice Enclosure",
+      "Emergency Power Supply": "5g Small Cell",
+      "Data Transmission Unit": "Emergency Power Supply",
+      "Mobile Switching Center": "Fiber Distribution Hub",
+      "Satellite Uplink Station": "Network Demarcation Point"
+    }
+  },
+  {
+    "item_id": "10dc7e32-0857-4c2b-ab58-23f4898f3fe1",
+    "item_name": "POP 218",
+    "item_type": "Anchor point building",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 12,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.6242080444679,
+        -3.1337332448303434
+      ]
+    },
+    "city": "Thika",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "leased",
+    "item_provider_id": "8381c9a1-62ae-4ce8-8698-dd9f4dc5c0a6",
+    "item_provider": "FibreCo",
+    "deployment_type": "underground",
+    "cross_connect": "Cross-connect-66",
+    "colocation": "Colocation-43",
+    "power_consumption_kwh": 1.4,
+    "power_capacity_kwh": 306.63,
+    "space_required": 8,
+    "available_space": 0.03,
+    "availability": "reserved",
+    "transmission_equipment": "Optical Amplifier",
+    "band": "L-band",
+    "teleport": "Teleport C",
+    "antenna": "Panel",
+    "accessories": "Connectors",
+    "visibility": false,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Bts Controller Module": "Signal Booster",
+      "5g Small Cell": "Microwave Relay Tower",
+      "Signal Booster": "Emergency Power Supply",
+      "Fiber Splice Enclosure": "5g Small Cell",
+      "Radio Access Node": "Core Network Gateway",
+      "Fiber Distribution Hub": "Core Network Gateway",
+      "Antenna Array": "Network Demarcation Point",
+      "Satellite Uplink Station": "Bts Controller Module"
+    }
+  },
+  {
+    "item_id": "9a6b961d-0f1c-4c50-bcbe-0bcb40d4edb5",
+    "item_name": "VSAT 361",
+    "item_type": "GPON Fiber Access Terminal",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 22,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        39.72141640710178,
+        1.2135433952404107
+      ]
+    },
+    "city": "Malindi",
+    "country": "KEN",
+    "operational_status": "inactive",
+    "ownership": "shared",
+    "item_provider_id": "627eb209-9b79-4017-865a-56ee694c8d13",
+    "item_provider": "FibreCo",
+    "deployment_type": "underground",
+    "cross_connect": "Cross-connect-46",
+    "colocation": "Colocation-11",
+    "power_consumption_kwh": 90.28,
+    "power_capacity_kwh": 411.52,
+    "space_required": 2.26,
+    "available_space": 19.73,
+    "availability": "unavailable",
+    "transmission_equipment": "Optical Amplifier",
+    "band": "L-band",
+    "teleport": "Teleport C",
+    "antenna": "Panel",
+    "accessories": "Mounting brackets",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Telecom Cabinet": "Cellular Base Station",
+      "Fiber Splice Enclosure": "Emergency Power Supply",
+      "Microwave Relay Tower": "Cellular Base Station",
+      "Antenna Array": "Telecom Cabinet",
+      "5g Small Cell": "Network Demarcation Point",
+      "Cellular Base Station": "Distributed Antenna System",
+      "Satellite Uplink Station": "Data Transmission Unit",
+      "Tower Mount Amplifier": "5g Small Cell"
+    }
+  },
+  {
+    "item_id": "160364fd-f7ef-4a1a-aa0f-f3bbe1b8601f",
+    "item_name": "VSAT 87",
+    "item_type": "Node",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 8,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        35.2692453625004,
+        1.2880356737644005
+      ]
+    },
+    "city": "Nakuru",
+    "country": "KEN",
+    "operational_status": "active",
+    "ownership": "owned",
+    "item_provider_id": "37c17a63-df9a-40ab-b63f-a492143ac574",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-94",
+    "colocation": "Colocation-45",
+    "power_consumption_kwh": 55.57,
+    "power_capacity_kwh": 208.5,
+    "space_required": 3.61,
+    "available_space": 10.75,
+    "availability": "reserved",
+    "transmission_equipment": "MSAN",
+    "band": "L-band",
+    "teleport": "Teleport A",
+    "antenna": "Panel",
+    "accessories": "Weatherproof covers",
+    "visibility": false,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Network Demarcation Point": "Antenna Array",
+      "Microwave Relay Tower": "Tower Mount Amplifier",
+      "Telecom Cabinet": "Data Transmission Unit",
+      "Radio Access Node": "Distributed Antenna System",
+      "Emergency Power Supply": "Fiber Splice Enclosure",
+      "Optical Network Terminal": "Network Demarcation Point",
+      "Tower Mount Amplifier": "Network Demarcation Point",
+      "Bts Controller Module": "Data Transmission Unit"
+    }
+  },
+  {
+    "item_id": "df3a921d-8077-4b9f-a6c4-a52bd9d02438",
+    "item_name": "MSAN 247",
+    "item_type": "Fibre route",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 88,
+    "location": {
+      "type": "LineString",
+      "coordinates": [
+        [
+          37.624756680804545,
+          -1.2767460946462927
+        ],
+        [
+          41.28670447395392,
+          2.4124784705161106
+        ],
+        [
+          40.415996708305705,
+          2.5245613972742724
+        ],
+        [
+          34.056240146205425,
+          -1.0023254587404695
+        ],
+        [
+          39.528476895530986,
+          1.6468582895941575
+        ],
+        [
+          41.59908461491112,
+          3.129809869698745
+        ],
+        [
+          35.97378113892159,
+          3.46179125561779
+        ],
+        [
+          35.177359124914425,
+          -3.3949038069240323
+        ],
+        [
+          40.492785813056685,
+          -3.5860046761577347
+        ],
+        [
+          39.31100879638877,
+          1.3930634642041344
+        ]
+      ]
+    },
+    "city": "Kisumu",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "shared",
+    "item_provider_id": "afb48a32-ae6a-4803-97f1-65a941116fcf",
+    "item_provider": "FibreCo",
+    "deployment_type": "underground",
+    "cross_connect": "Cross-connect-70",
+    "colocation": "Colocation-18",
+    "power_consumption_kwh": 56.56,
+    "power_capacity_kwh": 80.98,
+    "space_required": 3.79,
+    "available_space": 3.49,
+    "availability": "unavailable",
+    "transmission_equipment": "Optical Amplifier",
+    "band": "Ku-band",
+    "teleport": "Teleport B",
+    "antenna": "Horn",
+    "accessories": "Power cables",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Radio Access Node": "Network Operations Center",
+      "Core Network Gateway": "Bts Controller Module",
+      "Network Demarcation Point": "Fiber Splice Enclosure"
+    }
+  },
+  {
+    "item_id": "96d6a395-ba35-47b1-9720-8a9d8d19d7cc",
+    "item_name": "Fiber Switch 6",
+    "item_type": "VSAT",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 54,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.66681857104636,
+        0.9575582320275089
+      ]
+    },
+    "city": "Kisumu",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "leased",
+    "item_provider_id": "e8633b0d-8bf8-4e55-bb84-bf06930eaedf",
+    "item_provider": "FibreCo",
+    "deployment_type": "surface",
+    "cross_connect": "Cross-connect-89",
+    "colocation": "Colocation-22",
+    "power_consumption_kwh": 60.44,
+    "power_capacity_kwh": 284.39,
+    "space_required": 1.08,
+    "available_space": 0.87,
+    "availability": "available",
+    "transmission_equipment": "MSAN",
+    "band": "C-band",
+    "teleport": "Teleport B",
+    "antenna": "Parabolic",
+    "accessories": "Power cables",
+    "visibility": false,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Core Network Gateway": "Satellite Uplink Station",
+      "Cellular Base Station": "Satellite Uplink Station",
+      "Signal Booster": "Satellite Uplink Station"
+    }
+  },
+  {
+    "item_id": "1a78f430-2e46-411e-b368-618366d0cd94",
+    "item_name": "Node 741",
+    "item_type": "POP",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 69,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        41.20162177062968,
+        0.5219649393865549
+      ]
+    },
+    "city": "Thika",
+    "country": "KEN",
+    "operational_status": "under maintenance",
+    "ownership": "shared",
+    "item_provider_id": "94633bf8-bea5-429f-98a7-31264bb3747b",
+    "item_provider": "FibreCo",
+    "deployment_type": "surface",
+    "cross_connect": "Cross-connect-4",
+    "colocation": "Colocation-24",
+    "power_consumption_kwh": 86.23,
+    "power_capacity_kwh": 33.27,
+    "space_required": 9.93,
+    "available_space": 10.77,
+    "availability": "unavailable",
+    "transmission_equipment": "DWDM",
+    "band": "L-band",
+    "teleport": "Teleport C",
+    "antenna": "Panel",
+    "accessories": "Power cables",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Network Demarcation Point": "Data Transmission Unit",
+      "5g Small Cell": "Data Transmission Unit",
+      "Radio Access Node": "Antenna Array",
+      "Tower Mount Amplifier": "Satellite Uplink Station",
+      "Fiber Splice Enclosure": "Telecom Cabinet",
+      "Cellular Base Station": "Emergency Power Supply",
+      "Network Operations Center": "Satellite Uplink Station"
+    }
+  },
+  {
+    "item_id": "00bdfbed-8919-4228-ae06-23a1a2ec68ab",
+    "item_name": "IXP 698",
+    "item_type": "Antenna",
+    "item_description": "Bundle of high-capacity networking equipment",
+    "item_amount": 73,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        40.36719867019713,
+        -4.0305649322768256
+      ]
+    },
+    "city": "Nakuru",
+    "country": "KEN",
+    "operational_status": "active",
+    "ownership": "shared",
+    "item_provider_id": "20160106-9fb9-4caa-9244-538a76e5d957",
+    "item_provider": "FibreCo",
+    "deployment_type": "aerial",
+    "cross_connect": "Cross-connect-85",
+    "colocation": "Colocation-3",
+    "power_consumption_kwh": 56.89,
+    "power_capacity_kwh": 262.55,
+    "space_required": 5.39,
+    "available_space": 10.7,
+    "availability": "available",
+    "transmission_equipment": "MSAN",
+    "band": "Ku-band",
+    "teleport": "Teleport A",
+    "antenna": "Horn",
+    "accessories": "Connectors",
+    "visibility": true,
+    "submittedVia": "Cell-Stack",
+    "creationDate": "2025-04-03T09:56:15.504Z",
+    "userDefinedData": {
+      "Telecom Cabinet": "Tower Mount Amplifier",
+      "Microwave Relay Tower": "Optical Network Terminal",
+      "Core Network Gateway": "Satellite Uplink Station",
+      "Optical Network Terminal": "5g Small Cell",
+      "Fiber Distribution Hub": "Microwave Relay Tower",
+      "Emergency Power Supply": "Optical Network Terminal",
+      "Radio Access Node": "Bts Controller Module"
+    }
+  }
+]

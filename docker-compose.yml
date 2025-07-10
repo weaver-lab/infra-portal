@@ -1,0 +1,65 @@
+volumes:
+  mongo-data:
+
+networks:
+  ida-internal:
+    driver: bridge
+
+services:
+  mongo:
+    image: mongo:8.0
+    container_name: ida-mongo
+    ports:
+      - "27000:27017"
+    volumes:
+      - "mongo-data:/data/db"
+      - "./mongo/mongo-init:/docker-entrypoint-initdb.d"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      IDA_DB_USER: ${IDA_DB_USER}
+      IDA_DB_PASS: ${IDA_DB_PASS}
+    networks:
+      - ida-internal
+
+  # FastAPI backend
+  backend:
+    build:
+      context: ./infra-portal-be
+      dockerfile: Dockerfile
+    container_name: ida-backend
+    depends_on:
+      - mongo
+    environment:
+      - IDA_DB_USER=${IDA_DB_USER}
+      - IDA_DB_PASS=${IDA_DB_PASS}
+      - IDA_DB_NAME=${IDA_DB_NAME}
+      - IDA_DB_HOST=${IDA_DB_HOST}
+      - IDA_DB_PORT=${IDA_DB_PORT}
+    networks:
+      - ida-internal
+    ports:
+      - "8000:8000"  # Expose externally if needed
+
+  # Next.js frontend
+  frontend:
+    build:
+      context: ./infra-portal-fe
+      dockerfile: Dockerfile
+    container_name: ida-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN=${NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN}
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET}
+      - MONGODB_URI=${MONGODB_URI}
+      - NEXTAUTH_URL=${NEXTAUTH_URL}
+      - MONGODB_DB=${MONGODB_DB}
+      - API_HOST=${API_HOST}
+      - API_PORT=${API_PORT}
+      - NEXT_PUBLIC_BFF_URL=${NEXT_PUBLIC_BFF_URL}
+      - NEXT_PUBLIC_AUTH_CODE=${NEXT_PUBLIC_AUTH_CODE}
+    networks:
+      - ida-internal

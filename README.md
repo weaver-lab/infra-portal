@@ -25,7 +25,7 @@ To run the Infra Portal, the respective .env files must first be created.
 
 3. Copy and rename `.env_example` to `.env`, and replace the default variable values where the values end in `_here`, such as `MONGO_INITDB_ROOT_USERNAME=root_username_here`. Replace the text `your_mapbox_token_here` with your Mapbox token. Change any other values if need be, including the auth code to be used on the frontend's registration page.
 
-4. Navigate to the infra-portal-fe directory with `cd infra-portal-fe`, and then copy and rename `.env_example` to `.env`, and replace the text `your_mapbox_token_here` with your Mapbox token. Change any other values if need be, to match with changes made in the root directory's `.env` file.
+4. Navigate to the infra-portal-fe directory with `cd infra-portal-fe`, and then copy and rename `.env_example` to `.env`, and replace the text `your_mapbox_token_here` with your Mapbox token. Change any other values if need be, to match with changes made in the root directory's `.env` file. You may need to change the `MONGODB_URI` env variable to include the ida username, password, and "ida" collection name in the connection string (for example: `MONGODB_URI=mongodb://idauser:idapass@mongo:27017/ida`).
 
 5. Go back to the root directory and navigate to infra-portal-be with `cd infra-portal-be`. Then, copy and rename `.env_example` to `.env`, and replace the IDA db username and password values with your own.
 
